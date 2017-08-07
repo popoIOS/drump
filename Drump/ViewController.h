@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 
+@property ( nonatomic ,copy) NSString *name;
+@property (nonatomic, strong) NSDictionary *dicData;
 
 @end
 
